@@ -1,0 +1,20 @@
+/* Navbar.css */
+.navbar {
+    transition: all 0.3s ease; /* Add a smooth transition for scaling */
+  }
+  
+  /* Custom styles for small screens */
+  @media (max-width: 800px) {
+    .navbar {
+      padding: 8px 16px; /* Adjust padding to make the navbar smaller */
+      font-size: 5px; /* Adjust font size for navbar items */
+    }
+    .navbar-brand 
+    {
+      font-size: 5px; /* Adjust font size for the brand */
+    }
+    .navbar-nav .nav-item .nav-link .a .li{
+      padding: 5px 10px; /* Adjust padding for the nav links */
+      font-size: 5px; /* Adjust font size for the nav links */
+    }
+  }
